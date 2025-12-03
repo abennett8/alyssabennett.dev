@@ -1,33 +1,28 @@
-/* ----------- BASIC RESET ----------- */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ----------- GLOBAL STYLES ----------- */
 body {
   margin: 0;
   min-height: 110vh;
 
-  /* FONT */
   font-family: "Garamond", serif;
-  color: #1D2C33; /* main text color */
+  color: #1D2C33;
 
-
-  /* BACKGROUND */
-  background-color: #DCDDD7; /* your solid background */
+  background-color: #DCDDD7; 
   background-image: url("/Users/alyssabennett/Website/images/websitebackground.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: contain; /* or cover, see below */
+  background-size: contain; 
 }
 
 nav a:hover {
-  color: #1D2C33; /* hover text color */
+  color: #1D2C33; 
 }
 
-/* ----------- MAIN CONTENT ----------- */
 h1 {
   text-align: center;
   margin-top: 100px;
