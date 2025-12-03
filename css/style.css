@@ -7,13 +7,12 @@
 
 body {
   margin: 0;
-  min-height: 110vh;
-
+  min-height: 95vh;
   font-family: "Garamond", serif;
   color: #1D2C33;
 
   background-color: #DCDDD7; 
-  background-image: url("/Users/alyssabennett/Website/images/websitebackground.jpg");
+  background-image: url("../images/websitebackground.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: contain; 
@@ -63,7 +62,6 @@ p {
 }
 
 .social-buttons a:hover {
-  background: #1D2C33;       
-  transform: translateY(-3px);
+  color: #1D2C33;           
 }
 
